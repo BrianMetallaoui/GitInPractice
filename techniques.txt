@@ -86,3 +86,9 @@ git update-index --no-assume-unchanged file.txt
 
 Technique 29 Listing only certain commits
 git log --author "Mike McQuaid" --after "Nov 10 2013" --grep 'file\.'
+
+Technique 31 Showing who last changed each line of a file:
+git blame
+
+Technique 32 Finding which commit caused a particular bug:
+git bisect
