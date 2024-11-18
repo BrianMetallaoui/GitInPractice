@@ -1,0 +1,84 @@
+Technique 1 Creating a repository: 
+git init
+
+Technique 2 Building a new commit in the index staging area: 
+git add file.txt
+git add .
+git status
+
+Technique 3 Committing changes to files:
+git commit -m 'commit message'
+
+Technique 5 Viewing the differences between commits:
+git diff master~1 master
+
+Technique 6 Adding a remote repository:
+git remote add origin https://github.com/GitInPractice/GitInPracticeRedux.git
+
+Technique 7 Pushing changes to a remote repository: 
+git push --set-upstream origin master
+
+Technique 8 Cloning a remote/GitHub repository onto your local machine: 
+git clone https://github.com/GitInPractice/GitInPracticeRedux.git
+
+Technique 9 Pulling changes from another repository: 
+git pull
+
+Technique 10 Fetching changes from a remote without modifying local branches: 
+git fetch
+
+Technique 11 Creating a new local branch from the current branch:
+git branch new-branch-name
+
+Technique 12 Checking out a local branch:
+git switch branch-name
+
+Technique 13 Pushing a local branch remotely
+git push --set-upstream origin chapter-two
+
+Technique 14 Merging an existing branch into the current branch:
+git merge other-branch
+
+Technique 15 Deleting a remote branch
+git push -d origin chapter-two
+
+Technique 16 Deleting the current local branch after merging
+git branch -d chapter-two
+
+Technique 17 Renaming or moving a file:
+git mv old_name.txt new_name.txt
+
+Technique 18 Removing a file:
+git rm file.txt
+
+Technique 19 Resetting files to the last commit:
+git reset --hard
+
+Technique 20 Deleting untracked files:
+git clean -f
+
+Technique 21 Ignoring files:
+add a .gitignore file
+
+Technique 22 Deleting ignored files
+git clean --force -X
+
+Technique 23 Temporarily stashing some changes:
+git stash save
+
+Technique 24 Reapplying stashed changes:
+git stash pop
+
+Technique 25 Clearing stashed changes:
+git stash clear
+
+Technique 26 Assuming files are unchanged
+git update-index --assume-unchanged file.txt
+
+Technique 27 Listing assumed-unchanged files
+git ls-files -v
+
+Technique 28 Stopping assuming files are unchanged
+git update-index --no-assume-unchanged file.txt
+
+
