@@ -92,3 +92,6 @@ git blame
 
 Technique 32 Finding which commit caused a particular bug:
 git bisect
+
+Technique 33 Merging branches and always creating a merge commit
+git merge --no-ff chapter-spacing
