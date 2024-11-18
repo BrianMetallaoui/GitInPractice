@@ -84,4 +84,5 @@ git ls-files -v
 Technique 28 Stopping assuming files are unchanged
 git update-index --no-assume-unchanged file.txt
 
-
+Technique 29 Listing only certain commits
+git log --author "Mike McQuaid" --after "Nov 10 2013" --grep 'file\.'
