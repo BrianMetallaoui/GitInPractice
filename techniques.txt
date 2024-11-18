@@ -100,3 +100,6 @@ Technique 34 Resolving a merge conflict
 
 Technique 35 Resolving each merge conflict only once:
 git rerere
+
+Technique 36 Creating a tag:
+git tag
