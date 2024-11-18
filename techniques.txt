@@ -96,4 +96,7 @@ git bisect
 Technique 33 Merging branches and always creating a merge commit
 git merge --no-ff chapter-spacing
 
+Technique 34 Resolving a merge conflict
 
+Technique 35 Resolving each merge conflict only once:
+git rerere
