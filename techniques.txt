@@ -9,6 +9,9 @@ git status
 Technique 3 Committing changes to files:
 git commit -m 'commit message'
 
+Technique 4 Viewing history:
+git log
+
 Technique 5 Viewing the differences between commits:
 git diff master~1 master
 
