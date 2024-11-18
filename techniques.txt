@@ -106,3 +106,7 @@ git tag
 
 Technique 37 Generating a version number based on previous tags:
 git describe
+
+
+Technique 38 Adding a single commit to the current branch: 
+git cherry-pick
