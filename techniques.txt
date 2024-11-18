@@ -103,3 +103,6 @@ git rerere
 
 Technique 36 Creating a tag:
 git tag
+
+Technique 37 Generating a version number based on previous tags:
+git describe
